@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body,.userbutton,.hero{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userbutton button{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+.userbutton button img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+#userscore , #oponentscore{
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: white;
+    text-align: center ;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin: 10px;
+}
+h1{
+    height: 40px;
+}
+.lastround{
+    height: 8vh;
+    width: 20vw;
+    background-color: orangered;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid white;
+}
